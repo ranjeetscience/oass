@@ -3,7 +3,7 @@
   <html>
     <head>
         
-        <title>IIITDMJ Fusion</title>
+        <title>OASS</title>
         
       <!--Import Google Icon Font-->
 <!--      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
@@ -26,17 +26,17 @@
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
-
+    @if($alert = Session::get('alert'))
+        <script type="text/javascript">alert("{{$alert}}");</script>
+    @endif
     <body style="background-color:#fff;overflow-y:hidden">
             
-        @if($alert = Session::get('alert'))
-            <script type="text/javascript">alert("{{$alert}}");</script>
-        @endif
+
 
         <header class="row landing">
             <nav class="mynav">
                 <div class="nav-wrapper">
-                    <a href="#" class="brand-logo col s12 m3">IIITDMJ FUSION</a>
+                    <a href="#" class="brand-logo col s12 m3">OASS</a>
                     <div class="login-form col s12 m5 offset-m7">
                         <form method="post" action="/login" name="login_form">
 

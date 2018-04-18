@@ -4,9 +4,10 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class assignment extends Model
+class result extends Model
 {
-    protected $table='assignment';
+    protected $table='result';
     public $incrementing = false;
     public $timestamps = false;
 }
+

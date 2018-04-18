@@ -19,15 +19,14 @@
         <div class="col s12 m7 l6 ">
             <div class="card small">
                 <div class="card-image">
-                    <img src="images/office.jpg">
-                    <span class="card-title">New Assignment</span>
+                    <img src="images/Books_Bokeh.jpg">
+                    <span class="card-title black-text"><b>New Assignment</b></span>
                 </div>
                 <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                        I am convenient because I require little markup to use effectively.</p>
+                    <p>All your new assignment are here</p>
                 </div>
                 <div class="card-action">
-                    <a href="/student_view">This is a link</a>
+                    <a href="/student_view">Click Here</a>
                 </div>
             </div>
         </div>
@@ -35,14 +34,13 @@
             <div class="card small">
                 <div class="card-image">
                     <img src="images/office.jpg">
-                    <span class="card-title">Old Assignment</span>
+                    <span class="card-title black-text" > <b>Old Assignment</b></span>
                 </div>
                 <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                        I am convenient because I require little markup to use effectively.</p>
+                    <p>Check Your Progress On Old Assignment.</p>
                 </div>
                 <div class="card-action">
-                    <a href="assignment_submitted">This is a link</a>
+                    <a href="assignment_submitted">Click Here</a>
                 </div>
             </div>
         </div>

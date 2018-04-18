@@ -4,9 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class assignment extends Model
+class submitted extends Model
 {
-    protected $table='assignment';
+    protected $table='submitted';
     public $incrementing = false;
     public $timestamps = false;
 }

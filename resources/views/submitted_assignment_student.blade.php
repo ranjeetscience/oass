@@ -13,6 +13,7 @@
             <tr>
                 <th>S.No</th>
                 <th>Course Id</th>
+                <th>Assignment Name</th>
                 <th>Submitted Time</th>
                 <th>File Name</th>
                 <th>Marks</th>
@@ -24,6 +25,7 @@
                 <tr>
                     <td><?php echo $i++; ?></td>
                     <td>{{$course_id[$i-1][0]}}</td>
+                    <td>{{$ass_name[$i-1][0]}}</td>
                     <td>{{$key->submitted_time}}</td>
                     <td><a href="/getFile/{{$key->original_filename}}"> {{$key->original_filename}}</a></td>
                     @if($assignment_staus[$i-1]==-1)
